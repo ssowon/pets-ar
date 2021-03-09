@@ -1,0 +1,3 @@
+# to keep required classes for the Moverio SDK
+-keep class android.hardware.Sensor
+-keep class com.wikitude.** { *; }

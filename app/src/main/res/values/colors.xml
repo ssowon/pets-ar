@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wikitude_primary">#ffc000</color>
+    <color name="wikitude_primary_dark">#ffdf7f</color>
+    <color name="wikitude_accent">#ffc000</color>
+    <color name="wikitude_semi_transparent">#ffdf7f</color>
+    <color name="wikitude_primary_text">#000000</color>
+    <color name="wikitude_secondary_text">#757575</color>
+    <color name="wikitude_white">#ffffff</color>
+    <color name="wikitude_divider">#BDBDBD</color>
+    <color name="wikitude_is_device_not_supported">#888888</color>
+
+    <!--from tflite-->
+    <color name="tfe_color_primary">#ae33ff</color>
+    <color name="tfe_color_primary_dark">#451466</color>
+    <color name="tfe_color_accent">#ae33ff</color>
+    <color name="tfe_semi_transparent">#f6eaff</color>
+
+    <color name="list_primary">#37d366</color>
+    <color name="list_primary_dark">#bdefe3</color>
+    <color name="list_accent">#37d366</color>
+    <color name="list_semi_transparent">#bdefe3</color>
+    <color name="list_divider">#bdefe3</color>
+</resources>

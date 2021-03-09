@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.detect.petsar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:5:5-17
+8        android:minSdkVersion="22"
+8-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:5:5-17
+9        android:targetSdkVersion="29" />
+9-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:5:5-17
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:7:5-65
+11-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:7:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:8:5-67
+12-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:9:5-81
+13-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:10:5-79
+14-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:11:5-79
+15-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:12:5-76
+16-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:12:22-73
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:13:5-81
+17-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:13:22-78
+18
+19    <uses-feature
+19-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:15:5-17:35
+20        android:glEsVersion="0x00020000"
+20-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:16:9-41
+21        android:required="true" />
+21-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:17:9-32
+22    <uses-feature
+22-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:18:5-20:35
+23        android:name="android.hardware.camera"
+23-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:19:9-47
+24        android:required="true" />
+24-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:20:9-32
+25    <uses-feature android:name="android.hardware.camera.autofocus" />
+25-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:21:5-22:60
+25-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:22:9-57
+26    <uses-feature
+26-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:23:5-25:35
+27        android:name="android.hardware.location"
+27-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:24:9-49
+28        android:required="true" />
+28-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:25:9-32
+29    <uses-feature
+29-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:26:5-28:35
+30        android:name="android.hardware.sensor.accelerometer"
+30-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:27:9-61
+31        android:required="true" />
+31-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:28:9-32
+32    <uses-feature
+32-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:29:5-31:35
+33        android:name="android.hardware.sensor.compass"
+33-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:30:9-55
+34        android:required="true" />
+34-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:31:9-32
+35    <uses-feature
+35-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:32:5-34:36
+36        android:name="android.hardware.sensor.gyroscope"
+36-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:33:9-57
+37        android:required="false" />
+37-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:34:9-33
+38
+39    <application
+39-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:36:5-73:19
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.1.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher_petsar"
+42-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:37:9-50
+43        android:label="@string/app_name"
+43-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:38:9-41
+44        android:resizeableActivity="false"
+44-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:39:9-43
+45        android:roundIcon="@mipmap/ic_title1"
+45-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:40:9-46
+46        android:supportsRtl="true"
+46-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:41:9-35
+47        android:testOnly="true"
+48        android:theme="@style/AppTheme" >
+48-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:42:9-40
+49        <activity android:name="com.detect.petsar.ProductActivity" />
+49-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:43:9-62
+49-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:43:19-50
+50        <activity android:name="com.detect.petsar.ListActivity" />
+50-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:44:9-50
+50-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:44:19-47
+51        <activity android:name="com.detect.petsar.PetArActivity" />
+51-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:45:9-60
+51-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:45:19-48
+52        <activity android:name="com.detect.petsar.Real_MainActivity" >
+52-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:46:9-52:20
+52-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:46:19-52
+53            <intent-filter>
+53-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:47:13-51:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:48:17-69
+54-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:48:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:50:17-77
+56-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:50:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:53:9-57:20
+60            android:name="com.detect.petsar.DetectorActivity"
+60-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:54:13-45
+61            android:label="@string/tfe_od_app_name"
+61-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:55:13-52
+62            android:screenOrientation="portrait" >
+62-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:56:13-49
+63        </activity>
+64
+65        <provider
+65-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:60:9-68:20
+66            android:name="androidx.core.content.FileProvider"
+66-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:61:13-62
+67            android:authorities="com.wikitude.sdksamples.provider"
+67-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:62:13-67
+68            android:exported="false"
+68-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:63:13-37
+69            android:grantUriPermissions="true" >
+69-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:64:13-47
+70            <meta-data
+70-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:65:13-67:58
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:66:17-67
+72                android:resource="@xml/provider_paths" />
+72-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:67:17-55
+73        </provider>
+74
+75        <meta-data
+75-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:70:9-72:40
+76            android:name="com.google.ar.core"
+76-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:71:13-46
+77            android:value="optional" />
+77-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\app\src\main\AndroidManifest.xml:72:13-37
+78        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+79        <meta-data
+79-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:33:9-35:41
+80            android:name="com.google.ar.core.min_apk_version"
+80-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:34:13-62
+81            android:value="191106000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+81-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:35:13-38
+82        <activity
+82-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:37:9-43:80
+83            android:name="com.google.ar.core.InstallActivity"
+83-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:38:13-62
+84            android:configChanges="keyboardHidden|orientation|screenSize"
+84-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:39:13-74
+85            android:excludeFromRecents="true"
+85-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:40:13-46
+86            android:exported="false"
+86-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:41:13-37
+87            android:launchMode="singleTop"
+87-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:42:13-43
+88            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+88-->[com.google.ar:core:1.15.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2dd1d0efd7bf42201330854b9cd51535\core-1.15.0\AndroidManifest.xml:43:13-77
+89        <activity android:name="com.wikitude.architect.BrowserActivity" />
+89-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:12:9-75
+89-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:12:19-72
+90        <activity
+90-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:13:9-15:77
+91            android:name="com.wikitude.tools.activities.MediaPlayerActivity"
+91-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:14:13-77
+92            android:configChanges="orientation|keyboardHidden|screenSize" />
+92-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:15:13-74
+93    </application>
+94
+95</manifest>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:wikitude-sdk:unspecified">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/wikitude-sdk/build/.transforms/a19218fe632175d2315c943d6350d0f9/jetified-wikitudesdk/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/wikitude-sdk/build/.transforms/a19218fe632175d2315c943d6350d0f9/jetified-wikitudesdk/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/wikitude-sdk/build/.transforms/a19218fe632175d2315c943d6350d0f9/jetified-wikitudesdk/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/wikitude-sdk/build/.transforms/a19218fe632175d2315c943d6350d0f9/jetified-wikitudesdk/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

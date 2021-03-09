@@ -1,0 +1,46 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wikitude.sampleplugins.test" >
+4
+5    <uses-sdk
+5-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:5:5-74
+6        android:minSdkVersion="22"
+6-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:5:15-41
+7        android:targetSdkVersion="29" />
+7-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:11:5-15:81
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:13:22-53
+13        android:label="Tests for com.wikitude.sampleplugins.test"
+13-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:15:22-79
+14        android:targetPackage="com.wikitude.sampleplugins.test" />
+14-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:12:22-77
+15
+16    <application
+16-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] C:\Users\shinj\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:22:18-86
+18        android:debuggable="true" >
+18-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:8:9-60
+19-->C:\Users\shinj\AndroidStudioProjects\PetsAR_final\plugins\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger233605493042109790.xml:8:23-57
+20
+21        <activity android:name="com.wikitude.architect.BrowserActivity" />
+21-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:12:9-75
+21-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:12:19-72
+22        <activity
+22-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:13:9-15:77
+23            android:name="com.wikitude.tools.activities.MediaPlayerActivity"
+23-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:14:13-77
+24            android:configChanges="orientation|keyboardHidden|screenSize" />
+24-->[:wikitude-sdk] C:\Users\shinj\AndroidStudioProjects\PetsAR_final\wikitude-sdk\build\.transforms\bb9af2cefc779ae326ebd88c05862ae1\jetified-wikitudesdk\AndroidManifest.xml:15:13-74
+25    </application>
+26
+27</manifest>

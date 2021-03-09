@@ -1,0 +1,34 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        maven {
+            url 'https://cdn.wikitude.com/sdk/maven'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+subprojects {
+    ext.commonCompileSdkVersion = 29
+    ext.commonMinSdkVersion = 22
+    ext.commonTargetSdkVersion = 29
+    ext.commonSupportLibVersion = "27.1.0"
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        maven {
+            url 'https://cdn.wikitude.com/sdk/maven'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

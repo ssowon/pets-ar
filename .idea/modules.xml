@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PetsAR_final.iml" filepath="$PROJECT_DIR$/PetsAR_final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_interpreter/lib_interpreter.iml" filepath="$PROJECT_DIR$/lib_interpreter/lib_interpreter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_task_api/lib_task_api.iml" filepath="$PROJECT_DIR$/lib_task_api/lib_task_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/plugins.iml" filepath="$PROJECT_DIR$/plugins/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wikitude-sdk/wikitude-sdk.iml" filepath="$PROJECT_DIR$/wikitude-sdk/wikitude-sdk.iml" />
+    </modules>
+  </component>
+</project>

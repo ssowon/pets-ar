@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"1.0","enabled":true,"outputFile":"app-interpreter-debug.apk","fullName":"interpreterDebug","baseName":"interpreter-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.detect.petsar","split":"","minSdkVersion":"22"}}]
